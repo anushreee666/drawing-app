@@ -1,0 +1,47 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Varela Round", sans-serif;
+	background: url(/image/bg.jpg);
+	background-size: auto;
+	background-color: rgb(255, 255, 255);
+}
+
+.btn_start {
+	align-content: center;
+	left: 120px;
+	background-color: rgb(114, 230, 86);
+	font-size: 4vw;
+	height: 6vw;
+}
+.btn_check_ans {
+	align-content: center;
+	left: 120px;
+	background-color: rgb(114, 230, 86);
+}
+
+h3 {
+	color: darkslategrey;
+}
+.current_score {
+	padding: 10px;
+	color: grey;
+	position: sticky;
+	top: 0;
+	text-align: right;
+	margin-right: 50px;
+	font-size: 20px;
+}
+.margin30 {
+	margin: 30px;
+}
+.answer {
+	margin: 50px;
+	width: 90%;
+}
+.answer tr {
+	border: 0px;
+}
+.answer .border_bottom {
+	border-bottom: 1px solid rgb(206, 200, 200);
+}

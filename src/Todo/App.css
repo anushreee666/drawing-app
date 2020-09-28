@@ -1,0 +1,35 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	font-family: "Oswald", sans-serif;
+	box-sizing: border-box;
+}
+body {
+	background-image: url(/image/cold.jpg);
+}
+.heading {
+	color: #6d6e6d;
+	text-shadow: 2px 2px whitesmoke;
+}
+.todo-container {
+	width: 70%;
+	margin: auto;
+}
+.card {
+	padding: 1px;
+	border-radius: 30px;
+	background-color: #fffff0d0;
+}
+.card:hover {
+	background-color: #ffffff;
+}
+.task {
+	margin-top: 15px;
+}
+.delete {
+	color: #6d6e6d;
+	background-color: transparent;
+	border: 0px;
+	font-size: 20px;
+	cursor: pointer;
+}

@@ -1,0 +1,60 @@
+* {
+	padding: 0px;
+	margin: 0px;
+
+	font-family: "Oswald", sans-serif;
+
+	border-radius: 30px;
+}
+body {
+	overflow: hidden;
+	overflow-x: hidden;
+}
+
+.password {
+	height: 228px;
+	width: 210px;
+	margin: auto;
+	border-radius: 10px;
+	color: grey;
+	box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.288);
+}
+
+.inner-div {
+	background-color: rgb(63, 62, 62);
+	margin: 4px;
+	padding: 5px;
+	height: 198px;
+	border-radius: 10px;
+	font-size: 12px;
+}
+
+.number-box {
+	width: 30px;
+	margin-left: 49px;
+	margin-bottom: 6px;
+}
+
+.letter label {
+	margin-left: 12px;
+}
+.symbol label {
+	margin-left: 56px;
+}
+.number label {
+	margin-left: 54px;
+}
+
+.pass-generated {
+	padding: 5px;
+}
+.pass-heading {
+	color: white;
+	text-align: center;
+}
+.copy :hover {
+	cursor: pointer;
+}
+.captcha {
+	margin: auto;
+}
